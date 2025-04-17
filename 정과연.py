@@ -51,10 +51,11 @@ class WaterQualityAnalyzer:
             print(f"기준을 벗어난 항목이 {issue_count}개 있습니다.")
 
 # JSON 파일 불러오기
-with open("jamsil.json ", "r", encoding="utf-8") as f:
+with open("jamsil.json", "r", encoding="utf-8") as f:
     data = json.load(f)
 
 # 분석 실행
 분석기 = WaterQualityAnalyzer(data)
 results, issue_count = 분석기.analyze()
 분석기.report(results, issue_count)
+python 정과연.py
