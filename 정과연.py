@@ -58,4 +58,3 @@ with open("jamsil.json", "r", encoding="utf-8") as f:
 분석기 = WaterQualityAnalyzer(data)
 results, issue_count = 분석기.analyze()
 분석기.report(results, issue_count)
-python 정과연.py
