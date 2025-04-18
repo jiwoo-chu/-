@@ -1,5 +1,6 @@
 import json
 
+
 # 수질 기준 (환경부 기준)
 WATER_QUALITY_STANDARDS = {
     "pH": (6.5, 8.5),
